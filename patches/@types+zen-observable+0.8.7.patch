@@ -1,0 +1,11 @@
+diff --git a/node_modules/@types/zen-observable/index.d.ts b/node_modules/@types/zen-observable/index.d.ts
+index 6b65006..0f0fb76 100644
+--- a/node_modules/@types/zen-observable/index.d.ts
++++ b/node_modules/@types/zen-observable/index.d.ts
+@@ -60,4 +60,6 @@ declare class Observable<T> {
+ 
+ declare namespace Observable {}
+ 
++Observable.default = Observable;
++Observable.__esModule = true;
+ export = Observable;
