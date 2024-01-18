@@ -1,0 +1,16 @@
+{
+  "name": "swc-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "swc src -d dist",
+    "test": "node dist/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@swc/cli": "^0.1.63",
+    "@swc/core": "^1.3.104",
+    "@types/zen-observable": "^0.8.7",
+    "zen-observable": "^0.10.0"
+  }
+}
